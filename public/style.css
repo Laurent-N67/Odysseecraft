@@ -1,13 +1,15 @@
 *{
     margin: auto;
+}
+body{
     font-family: 'Roboto';
 }
- 
 @font-face {
     font-family: 'VCR OSD Mono';
     src: url("public\font\VCR_OSD_MONO_1.001.ttf") format("truetype");
 }
 @font-face {
+    font-family: 'Roboto';
     src: url("public\font\Roboto-Bold.ttf") format("truetype");
     font-weight: 700;
 }
@@ -65,10 +67,8 @@ header div a{
     background-position: center;
 }
 .welcome{
- position: absolute; 
  text-align: center;
  color: #E6E6E6;
- font-weight: 700;
  font-size: 49px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -78,16 +78,16 @@ header div a{
     justify-content: center;
     align-items: center;
     min-height: 592px;
+    margin: 0 7rem;
 }
 #section2 p{
     font-size: 42px;
     font-weight: 700;
-    max-width: 50%;
     text-align: center;
     color: #464646;
     background-color:rgba(187, 187, 187, 62%) ;
     border-radius: 15px;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #section3{
@@ -95,9 +95,93 @@ header div a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #E6E6E6;
+    margin: 0 7rem;
+    height: 345px;
+}
+#section3 h2{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 36%);
+    border-radius: 15px;
 }
 .admin{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    font-size: 26px;
+}
+.player{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.player img{
+    margin: 0 0.5rem;
+    max-height: 250px;
+}
+.player section{
+    background-color: rgba(0, 0, 0, 36%);
+    padding: 1rem;
+    border-radius: 15px;
+}
+.commu{
+    margin:0 0.5rem ;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+}
+.commu div{
+    background-color: rgba(0, 0, 0, 36%);
+    padding: 1rem;
+    border-radius: 15px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#section4{
+    display: flex;
+    font-family: 'VCR OSD Mono';
+    font-size: 26px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+}
+fieldset{
+    border: none;
+    height: 488px;
+    width: 395px;
+    margin: 0 2rem; 
+}
+.fieldset1{
+    background-image: url(image/book2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding: 0;
+}
+.fieldset1 h2{
+    padding: 1rem 0;
+}
+input{
+    background-color: #D8D1BF;
+    border: none;
+    height: 2rem;
+    margin: 0 1rem;
+    width: 80%;
+    border-radius: 15px;
+}
+
+
+
+
+
+textarea{
+    resize: none;
+    height: 280px;
+    width: 320px;
 }
