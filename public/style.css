@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+    font-family: 'Roboto';
+}
+ 
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url("public\font\VCR_OSD_MONO_1.001.ttf") format("truetype");
+}
+@font-face {
+    src: url("public\font\Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+.container{
+    background-image: url(image/Background-site-vitrine-10-2022.png);
+    min-height: 1561px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blue{
+    color: #00DCFF;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~*/
+
+header{
+    display: flex; /* the header is in flex row */
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(70, 70, 70, 0.7),
+        rgba(70, 70, 70, 0.7)
+      ), url(image/stonebrick.png); /* to have a color above my image */
+    background-size: contain;
+    padding: 1rem;
+    position: fixed; /* navbar that stick to the top of the screen */ 
+    width: 100%;
+    z-index: 99;
+}
+header div{
+    display: flex;
+}
+header div a{
+    font-family: 'VCR OSD Mono';
+    color: #E6E6E6;
+    padding-right: 4rem;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#section1{
+    min-height: 574px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(70, 70, 70, 0.4),
+        rgba(70, 70, 70, 0.4)
+      ), url(image/backgroundimage1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.welcome{
+ position: absolute; 
+ text-align: center;
+ color: #E6E6E6;
+ font-weight: 700;
+ font-size: 49px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 592px;
+}
+#section2 p{
+    font-size: 42px;
+    font-weight: 700;
+    max-width: 50%;
+    text-align: center;
+    color: #464646;
+    background-color:rgba(187, 187, 187, 62%) ;
+    border-radius: 15px;
+    padding: 1rem 0;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.admin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
