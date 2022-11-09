@@ -6,57 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/style.css">
     <title>OdysséeCraft</title>
+    <meta name="description" content="Site du serveur minecraft OdysséeCraft en 1.16.5 moddé, gérer par J0w0jo, nous proposons un thème médieval semi-RP, le serveur est non ouvert au crack, il est en survie et nous faisons régulièrement des event. Mod crée pour nous memes ainsi qu'ajout de plusieurs autres mods pour complémenter le serveur.">
+    <link rel="icon" href="public/image/logo.png">
 </head>
 <body>
+
     <header> <!--Start of header-->
         <h1><a href="/index.html" class="logo"><img src="public/image/odysseecraft.png" alt="Logo OdysséeCraft"></a></h1>
-        <div id="navLinks">
+        <nav id="navLinks"><!-- Links for my navbar-->
             <a href="/objectif.html">Objectif</a>
             <a href="/rejoindre.html">Rejoindre</a>
             <a href="/wiki.html">Wiki</a>
-        </div>
+        </nav>
     </header>
 
+    <main><!--The important part of the page-->
 
-    <main>
-        <section id="section1">
+        <section id="section1"><!--The top with the screenshot of the spawn-->
                 <h2 class="welcome">Bienvenue sur <strong>OdysséeCraft</strong> !<br>-Serveur survie moddé semi-RP-<br>Pour nous rejoindre c'est <span class="blue">ICI</span></h2>
         </section>
 
+        <div class="container"><!--A container to put the background image -->
 
-
-        <div class="container">
             <div id="section2"> <!--what's in the sky-->
                 <p>Le serveur OdysséeCraft est un serveur Minecraft en 1.16.5,<br>non ouvert aux comptes crack,<br>où le gameplay est basé sur le semi-rp moddé. <br>Nous accueillons tous types de joueurs ainsi que tout âge!</p>
             </div>
 
-
-            <section id="section3">
+            <section id="section3"><!--Starting of the third section with all the staff member-->
                 <h2>Les membres du staff :</h2>
                     <div class="admin">
-                        <div class="player">
-                            <img src="public/image/jolink.png" alt="">
+                        <div class="player"><!--The informations about the staff J0w0jo-->
+                            <img src="public/image/jolink.png" alt="Skin du joueur et administateur du serveur J0w0jo">
                             <section>
                                 <h3>J0w0jo</h3>
                                 <p><span class="blue">Rang : </span>Fondateur<br><span class="blue">Role : </span>Diriger le serveur ainsi que choisir les nouveautés à implementer</p>
                             </section>
                         </div>
-                        <div class="player">
-                            <img src="public/image/bilkol.png" alt="">
+                        <div class="player"><!--The informations about the staff Bilkol-->
+                            <img src="public/image/bilkol.png" alt="Skin du joueur et dévelopeur du site web Bilkol">
                             <section>
                                 <h3>Bilkol</h3>
                                 <p><span class="blue">Rang : </span>Dev<br><span class="blue">Role : </span>Aider au développement du mod ainsi que de dev le site web.</p>
                             </section>
                         </div>
-                        <div class="player">
-                            <img src="public/image/Seblaxe.png" alt="">
+                        <div class="player"><!--The informations about the staff Seblaxe-->
+                            <img src="public/image/Seblaxe.png" alt="Skin du joueur et builder Seblaxe">
                             <section>
                                 <h3>Seblaxe</h3>
                                 <p><span class="blue">Rang : </span>Builder<br><span class="blue">Role : </span>Crée les décors principaux du serveur avec l'aide d'autres joueurs</p>
                             </section>
                         </div>
-                        <div class="commu">
-                            <img src="public/image/commu.png" alt="">
+                        <div class="commu"><!--Community devs-->
+                            <img src="public/image/commu.png" alt="De multiple images de la tete du skin de tout les devs communautaires">
                             <div>
                                 <p>Les devs communautaires !</p>
                             </div>
@@ -64,42 +65,39 @@
                     </div>
             </section>
 
-
-
-
-           <div id="section4">
+           <div id="section4"><!--Start of the fourth and last section of the page-->
                 <section class="form">
-                    <form action="" method="get">
-                        <fieldset class="fieldset1">
+                    <form action="" method="get"><!--The form to contact the staff-->
+                        <fieldset class="fieldset1"><!--The left side of the book-->
                             <h2>Un problème ?</h2>
-                            <div>
+                            <div class="textinput">
                                 <label for="pseudo">Pseudo en jeu :</label>
                                 <input type="text" name="pseudo" id="pseudo" required>
                             </div>
-                            <div>
+                            <div class="textinput">
                                 <label for="subjet">Sujet du message :</label>
                                 <input type="text" name="subjet" id="subjet" required>
                             </div>
                             <div>
                                 <p>Votre sujet concerne : </p>
-                                <div>
+                                <div class="radioflex">
                                     <input type="radio" name="radio" id="bug" value="bug" checked>
                                     <label for="bug">Un bug en jeu </label>
                                 </div>
-                                <div>
+                                <div class="radioflex">
                                     <input type="radio" name="radio" id="perte" value="perte">
                                     <label for="perte">Une perte d'objet</label>
                                 </div>
-                                <div>
+                                <div class="radioflex">
                                     <input type="radio" name="radio" id="plainte" value="plainte">
                                     <label for="plainte">Une plainte</label>
                                 </div>
                             </div>
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="fieldset2"><!--The right side of the book-->
                             <div>
-                                <label for="textarea">Votre message :</label>
-                                <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="400" minlength="30" required></textarea>
+                                <label for="textarea" class="labelarea">Votre message :</label>
+                                <textarea name="textarea" id="textarea" placeholder="Maximum de charactères : 400" maxlength="400" minlength="15" required></textarea>
                             </div>
                             <div>
                                 <button type="submit">Envoyer le message</button>
@@ -107,17 +105,27 @@
                         </fieldset>
                     </form>
                 </section>
-                <section class="maj">
+                <section class="maj"><!--Where will be put the last update of the server-->
                     <h2>Derniere mis à jour du serveur :</h2>
                     <h3>Mise à jour 1.8b</h3>
                     <p>La mise a jour consiste au rajout de plusieurs objets comprenant principalement les autels, les offrandes, blabla bla bla bla bla
                         yen a des mots la quand meme hein
                         ca fais beaucoup la non ?
                         je remplace le lorem par des phrases
-                        j'espere vous allez bien en tout cas :)</p>
+                        j'espere vous allez bien en tout cas :)
+                        </p>
                 </section>
            </div>
+
         </div>
+
     </main>
+    
+    <footer><!--The footer of the pages with the legal mentions and a link to my CV-->
+        <div>
+            <p>Informations légales : <a href="" class="blue">Mentions Légales</a></p>
+            <p>Site crée par <a href="" class="blue">Laurent Niedermeyer</a></p>
+        </div>
+    </footer>
 </body>
 </html>

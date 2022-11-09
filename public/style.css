@@ -16,7 +16,7 @@ body{
 
 .container{
     background-image: url(image/Background-site-vitrine-10-2022.png);
-    min-height: 1561px;
+    min-height: 1470px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,10 +40,10 @@ header{
     width: 100%;
     z-index: 99;
 }
-header div{
+header nav{
     display: flex;
 }
-header div a{
+header nav a{
     font-family: 'VCR OSD Mono';
     color: #E6E6E6;
     padding-right: 4rem;
@@ -155,7 +155,7 @@ fieldset{
     border: none;
     height: 488px;
     width: 395px;
-    margin: 0 2rem; 
+    margin: 0 10rem; 
 }
 .fieldset1{
     background-image: url(image/book2.png);
@@ -163,6 +163,7 @@ fieldset{
     background-repeat: no-repeat;
     text-align:center;
     padding: 0;
+    margin-right: 0;
 }
 .fieldset1 h2{
     padding: 1rem 0;
@@ -172,16 +173,107 @@ input{
     border: none;
     height: 2rem;
     margin: 0 1rem;
-    width: 80%;
+    width: 70%;
     border-radius: 15px;
+    font-size: 17px;
+    padding: 0 1rem;
+}
+.textinput{
+    margin-bottom: 1rem;
+}
+.radioflex{
+    display: flex;
+    flex-direction: row;
+}
+.radioflex input{
+    max-width: 3rem;
+    margin: 1rem 0 1rem 2.5rem;
 }
 
-
-
-
-
+.fieldset2{
+    background-image: url(image/book1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding: 0;
+    margin-left: 0;
+}
+.fieldset2 div{
+    margin-top: 2rem;
+}
 textarea{
     resize: none;
-    height: 280px;
-    width: 320px;
+    height: 260px;
+    width: 300px;
+    background-color:#D8D1BF;
+    border: none;
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 17px;
+    margin-top: 1rem;
+}
+.fieldset2 div button{
+    font-family: 'VCR OSD Mono';
+    font-size: 20px;
+    background-color:#D8D1BF;
+    border: none;
+    width: 80%;
+    height: 2rem;
+    border-radius: 15px;
+}
+.fieldset2 div button:hover{
+    width: 85%;
+    height: 2.5rem;
+    background-color:#c0b9a7;
+    font-size: 22px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~maj~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.maj{
+    background-color: rgba(0, 0, 0, 36%);
+    color: #E6E6E6;
+    padding: 2rem;
+    margin-right: 10rem;
+    border-radius: 15px;
+}
+.maj h2{
+    font-size: 28px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+.maj h3{
+    font-size: 28px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+.maj p{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 26px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer{
+    background-image: url(image/footer.png);
+    min-height: 91px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 91px;
+    color: #E6E6E6;
+    font-size: 26px;
+    font-weight: 700;
+}
+footer div p{
+    background-color: rgba(0, 0, 0, 36%);
+    padding: 1rem;
+    border-radius: 15px;
 }
