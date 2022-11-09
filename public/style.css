@@ -17,6 +17,7 @@ body{
 .container{
     background-image: url(image/Background-site-vitrine-10-2022.png);
     min-height: 1470px;
+    width: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -24,6 +25,8 @@ body{
 .blue{
     color: #00DCFF;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ACCUEIL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~*/
 
 header{
@@ -97,12 +100,12 @@ header nav a{
     align-items: center;
     color: #E6E6E6;
     margin: 0 7rem;
-    height: 345px;
+    min-height: 345px;
 }
 #section3 h2{
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size: 35px;
+    font-size: 220%;
     background-color: rgba(0, 0, 0, 36%);
     border-radius: 15px;
 }
@@ -111,21 +114,23 @@ header nav a{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 26px;
+    font-size: 170%;
 }
 .player{
     display: flex;
-    font-size: 1.3rem;
     font-weight: 700;
 }
 .player img{
     margin: 0 0.5rem;
+    max-width: 80%;
+    height: auto;
     max-height: 250px;
 }
 .player section{
     background-color: rgba(0, 0, 0, 36%);
     padding: 1rem;
     border-radius: 15px;
+    font-size: 80%;
 }
 .commu{
     margin:0 0.5rem ;
@@ -276,4 +281,186 @@ footer div p{
     background-color: rgba(0, 0, 0, 36%);
     padding: 1rem;
     border-radius: 15px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~OBJECTIF~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~section 1 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#objSection1{
+    min-height: 593px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+}
+#objSection1 div{
+    background-color:rgba(187, 187, 187, 62%);
+    padding: 2rem;
+    border-radius: 15px;
+    color: #464646;
+    font-size: 36px;
+    margin: 0 7rem;
+}
+#objSection1 div h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom:2rem;
+    font-family: 'VCR OSD Mono';
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~section 2 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#objSection2{
+    min-height: 345px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#objSection2 div{
+    background-color: rgba(0, 0, 0, 36%);
+    padding: 2rem;
+    border-radius: 15px;
+    color: #E6E6E6;
+    font-size: 36px;
+    margin: 0 7rem;
+    font-weight: 500;
+}
+#objSection2 div h2{
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom:2rem;
+    font-family: 'VCR OSD Mono';
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~section 3 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#objSection3{
+    min-height: 530px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#objSection3 div{
+    background-color: rgba(0, 0, 0, 36%);
+    padding: 2rem;
+    border-radius: 15px;
+    color: #E6E6E6;
+    font-size: 36px;
+    margin: 0 7rem;
+    font-weight: 500;
+}
+#objSection3 div h2{
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom:2rem;
+    font-family: 'VCR OSD Mono';
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~REJOINDRE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~rejoindre section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#rejSection1{
+    height: 593px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #464646;
+}
+#rejSection1 h1{
+    margin-top: 8rem;
+    font-family: 'VCR OSD Mono';
+    background-color:rgba(187, 187, 187, 62%);
+    padding: 2rem;
+    font-size: 250%;
+    border-radius: 15px;
+}
+#rejSection1 div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    align-items: center;
+}
+#rejSection1 div p{
+    background-color:rgba(187, 187, 187, 62%);
+    border-radius: 15px;
+    font-size: 150%;
+    margin: 0% 2rem;
+    padding: 2.6rem;
+    text-align: center;
+    line-height: 150%;
+    max-height: auto;
+}
+#rejSection1 div p a{
+    text-decoration: none;
+    color: #464646;
+}
+#rejSection1 div p a:hover{
+    text-decoration: underline;
+    color: #00DCFF;
+}
+#rejSection1 div img{
+    height: auto;
+    max-width: 50%;
+    border-radius: 15px;
+    margin: 0 2rem;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~rejoindre section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#rejSection2{
+    height: 345px;
+    display: flex;
+}
+#rejSection2 div{
+    display: flex;
+    height: 345px;
+    flex-direction: row;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+}
+#rejSection2 div p{
+    background-color: rgba(0, 0, 0, 36%);
+    color: #E6E6E6;
+    border-radius: 15px;
+    font-size: 200%;
+    margin: 0 2rem;
+    padding: 2.6rem;
+    text-align: center;
+    line-height: 3rem;
+}
+#rejSection2 div img{
+    height: auto;
+    max-width: 30%;
+    border-radius: 15px;
+    margin: 0 2rem;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~rejoindre section 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#rejSection3{
+    display: flex;
+    flex-direction: column;
+    min-height: 530px;
+}
+#rejSection3 p{
+    background-color: rgba(0, 0, 0, 36%);
+    color: #E6E6E6;
+    border-radius: 15px;
+    font-size: 170%;
+    text-align: center;
+    margin: 2rem 10% 0;
+    padding: 1rem;
+}
+#rejSection3 div{
+    display: flex;
+    justify-content: center;
+}
+#rejSection3 div img{
+    height: auto;
+    max-width: 25%;
+    margin: 0 4rem;
 }
