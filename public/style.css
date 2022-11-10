@@ -6,22 +6,14 @@ body{
 }
 @font-face {
     font-family: 'VCR OSD Mono';
-    src: url("public\font\VCR_OSD_MONO_1.001.ttf") format("truetype");
+    src: url("/public/font/VCR_OSD_MONO_1.001.ttf") format("truetype");
 }
 @font-face {
     font-family: 'Roboto';
-    src: url("public\font\Roboto-Bold.ttf") format("truetype");
+    src: url("/public/font/Roboto-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
-.container{
-    background-image: url(image/Background-site-vitrine-10-2022.png);
-    min-height: 1470px;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 .blue{
     color: #00DCFF;
 }
@@ -37,10 +29,10 @@ header{
         rgba(70, 70, 70, 0.7),
         rgba(70, 70, 70, 0.7)
       ), url(image/stonebrick.png); /* to have a color above my image */
-    background-size: contain;
+    background-size:contain;
     padding: 1rem;
     position: fixed; /* navbar that stick to the top of the screen */ 
-    width: 100%;
+    width:100%;
     z-index: 99;
 }
 header nav{
@@ -51,13 +43,13 @@ header nav a{
     color: #E6E6E6;
     padding-right: 4rem;
     text-decoration: none;
-    font-size: 3.8vh;
+    font-size: 2vw;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #section1{
-    min-height: 574px;
+    min-height: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,11 +60,12 @@ header nav a{
       ), url(image/backgroundimage1.jpg);
     background-size: cover;
     background-position: center;
+    padding-top: 5vw;
 }
 .welcome{
  text-align: center;
  color: #E6E6E6;
- font-size: 5vh;
+ font-size: 3vw;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -80,10 +73,15 @@ header nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 592px;
+    max-height: 592px;
+    background-image: url(image/section2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8vw;
 }
 #section2 p{
-    font-size: 5vh;
+    font-size: 2.7vw;
     font-weight: 700;
     text-align: center;
     color: #464646;
@@ -93,19 +91,22 @@ header nav a{
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #section3{
+    background-image: url(image/section3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #E6E6E6;
-    margin: 0 7vw;
-    min-height: 345px;
+    max-height: 345px;
+    padding: 0.5vw 7vw ;
 }
 #section3 h2{
     margin-top: 1rem;
     padding: 0.5rem;
-    font-size: 220%;
-    background-color: rgba(0, 0, 0, 36%);
+    font-size: 2.5vw;
+    background-color: rgba(0, 0, 0, 60%);
     border-radius: 15px;
 }
 .admin{
@@ -113,33 +114,33 @@ header nav a{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 170%;
 }
 .player{
     display: flex;
-    font-weight: 700;
 }
 .player img{
     margin: 0 0.5rem;
     max-width: 80%;
     height: auto;
-    max-height: 250px;
+    height: 13vw;
 }
 .player section{
-    background-color: rgba(0, 0, 0, 36%);
+    background-color: rgba(0, 0, 0, 60%);
     padding: 1rem;
     border-radius: 15px;
-    font-size: 80%;
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: column;
 }
 .commu{
-    margin:0 0.5rem ;
-    font-size: 1.3rem;
+    margin:0 0.5rem;
+    font-size: 1.4vw;
     text-align: center;
     font-weight: 700;
 }
 .commu div{
-    background-color: rgba(0, 0, 0, 36%);
-    padding: 1rem;
+    background-color: rgba(0, 0, 0, 60%);
+    padding: 1vw;
     border-radius: 15px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -147,13 +148,16 @@ header nav a{
 #section4{
     display: flex;
     font-family: 'VCR OSD Mono';
-    font-size: 26px;
-    height: 530px;
+    background-image: url(image/section4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 530px;
     justify-content: center;
     align-items: center;
 }
 form{
     display: flex;
+    margin: 1vw 0;
 }
 fieldset{
     border: none;
@@ -171,16 +175,23 @@ fieldset{
 }
 .fieldset1 h2{
     padding: 1rem 0;
+    font-size: 2.3vw;
+}
+label{
+    font-size: 1.5vw;
 }
 input{
     background-color: #D8D1BF;
     border: none;
-    height: 2rem;
+    height: 2vw;
     margin: 0 1rem;
-    width: 70%;
+    width: 16vw;
     border-radius: 15px;
     font-size: 17px;
     padding: 0 1rem;
+}
+.formP{
+    font-size: 1.5vw;
 }
 .textinput{
     margin-bottom: 1rem;
@@ -190,8 +201,8 @@ input{
     flex-direction: row;
 }
 .radioflex input{
-    max-width: 3rem;
-    margin: 1rem 0 1rem 2.5rem;
+    width: 1.8vw;
+    margin: 1vw 0 0 2vw;
 }
 
 .fieldset2{
@@ -203,7 +214,7 @@ input{
     margin-left: 0;
 }
 .fieldset2 div{
-    margin-top: 2rem;
+    margin-top: 2vw;
 }
 textarea{
     resize: none;
@@ -213,23 +224,23 @@ textarea{
     border: none;
     border-radius: 15px;
     padding: 1rem;
-    font-size: 17px;
+    font-size: 2vh;
     margin-top: 1rem;
 }
 .fieldset2 div button{
     font-family: 'VCR OSD Mono';
-    font-size: 20px;
+    font-size: 1.5vw;
     background-color:#D8D1BF;
     border: none;
     width: 80%;
-    height: 2rem;
+    height: 2vw;
     border-radius: 15px;
 }
 .fieldset2 div button:hover{
     width: 85%;
-    height: 2.5rem;
+    height: 2.5vw;
     background-color:#c0b9a7;
-    font-size: 22px;
+    font-size: 1.6vw;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~maj~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -238,36 +249,35 @@ textarea{
     background-color: rgba(0, 0, 0, 36%);
     color: #E6E6E6;
     padding: 3vh;
-    margin-right: 10%;
     border-radius: 15px;
     height: 80%;
     overflow: hidden;
-    min-width: 30%;
+    width: 30%;
+    max-height: 100%;
 }
 .maj h2{
-    font-size: 3.8vh;
-    margin-bottom: 2rem;
+    font-size: 2vw;
+    margin-bottom: 2.5vw;
     font-weight: 500;
 }
 .maj h3{
-    font-size: 3.8vh;
-    margin-bottom: 2rem;
+    font-size: 2vw;
+    margin-bottom: 2.5vw;
     font-weight: 500;
 }
 .maj p{
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 3.5vh;
+    font-size: 1.5vw;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 footer{
     background-image: url(image/footer.png);
-    min-height: 91px;
+    max-height: 91px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 footer div{
     display: flex;
@@ -276,7 +286,7 @@ footer div{
     align-items: center;
     min-height: 91px;
     color: #E6E6E6;
-    font-size: 26px;
+    font-size: 2vw;
     font-weight: 700;
 }
 footer div p{
@@ -465,4 +475,123 @@ footer div p{
     height: auto;
     max-width: 25%;
     margin: 0 4rem;
+}
+
+.mentions{
+    background-color: #464646;
+    color: #E6E6E6;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.7vw;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~mod laptop L~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (max-width:1440px) {
+    
+    /* ~~~~~~~~~~~~~~~~~~~~~~~section3 media~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    
+    .player img{
+        height: 14vw;
+    }
+    .player section{
+        padding: 1vw;
+        font-size: 1.4vw;
+        height: 12vw;
+    }
+    .commu{
+        font-size: 1.4vw;
+        height: 15vw;
+    }
+    .commu img{
+        width: 100%;
+    }
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~section 4 media~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    #section4{
+        font-size: 1.8vw;
+    }
+    fieldset{
+        width: 23vw;
+        height: 28.6vw;
+    }
+    textarea{
+        width: 15vw;
+        height: 12vw;
+    }
+    .radioflex input{
+        width: 2vw;
+        margin: 0.5vw 0 0 2vw;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~between L and normal~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (max-width:1250px){
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~header media~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .logo{
+        width: 30vw;
+    }
+    header nav a{
+        font-size: 2.5vw;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~section3 media~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    .player img{
+        max-height: 18vw;
+    }
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~section 4 media~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    #section4{
+        font-size: 1.8vw;
+    }
+    fieldset{
+        width: 23vw;
+        height: 28.6vw;
+    }   
+    textarea{
+        width: 15vw;
+        height: 10vw;
+    }
+    .maj{
+        margin: 2vw auto;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Mod Laptop~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (max-width:1024px){
+
+    /* ~~~~~~~~~~~~~~~section 4 media~~~~~~~~~~~~~~~ */
+
+    input{
+        margin: 0;
+        font-size: 1.4vw;
+    } 
+    textarea{
+        font-size: 1.4vw;
+    }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Mod tablet~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (max-width:768px){
+
+    /* ~~~~~~~~~~~~~~~header media~~~~~~~~~~~~~~~ */
+    header{
+        padding: 3vw;
+    }
+    .logo{
+        width: 50vw;
+    }
+    header nav a{
+        display: none;
+    }
+    /* ~~~~~~~~~~~~~~~section 4 media~~~~~~~~~~~~~~~ */
+
 }
