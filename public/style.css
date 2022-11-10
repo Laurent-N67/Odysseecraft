@@ -299,12 +299,17 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~section 1 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #objSection1{
-    min-height: 593px;
+    max-height: 593px;
+    background-image: url(image/section2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     font-weight: 500;
+    padding: 8vw;
 }
 #objSection1 div{
     background-color:rgba(187, 187, 187, 62%);
@@ -324,14 +329,18 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~section 2 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #objSection2{
-    min-height: 345px;
+    max-height: 345px;
+    background-image: url(image/section3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    padding: 1vw 7vw ;
 }
 #objSection2 div{
-    background-color: rgba(0, 0, 0, 36%);
+    background-color: rgba(0, 0, 0, 60%);
     padding: 2rem;
     border-radius: 15px;
     color: #E6E6E6;
@@ -348,11 +357,15 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~section 3 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #objSection3{
-    min-height: 530px;
+    max-height: 530px;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    background-image: url(image/section4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vw;
 }
 #objSection3 div{
     background-color: rgba(0, 0, 0, 36%);
@@ -374,37 +387,40 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~rejoindre section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #rejSection1{
-    height: 593px;
+    max-height: 593px;
     width: auto;
+    background-image: url(image/section2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     font-weight: 500;
     color: #464646;
+    padding: 7vw;
 }
 #rejSection1 h1{
-    margin-top: 8rem;
     font-family: 'VCR OSD Mono';
     background-color:rgba(187, 187, 187, 62%);
-    padding: 2rem;
-    font-size: 250%;
+    padding: 2vw;
+    font-size: 1.8vw;
     border-radius: 15px;
 }
 #rejSection1 div{
     display: flex;
     flex-direction: row;
-    margin-top: 0;
     align-items: center;
 }
 #rejSection1 div p{
     background-color:rgba(187, 187, 187, 62%);
     border-radius: 15px;
-    font-size: 150%;
-    margin: 0% 2rem;
-    padding: 2.6rem;
+    font-size: 1.2vw;
+    margin: 1vw;
+    padding: 1.5vw;
     text-align: center;
-    line-height: 150%;
+    line-height: 1.7vw;
     max-height: auto;
 }
 #rejSection1 div p a{
@@ -424,8 +440,11 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~rejoindre section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #rejSection2{
-    height: 345px;
+    max-height: 345px;
     display: flex;
+    background-image: url(image/section3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #rejSection2 div{
     display: flex;
@@ -434,6 +453,7 @@ footer div p{
     margin-top: 0;
     align-items: center;
     justify-content: center;
+    
 }
 #rejSection2 div p{
     background-color: rgba(0, 0, 0, 36%);
@@ -456,7 +476,10 @@ footer div p{
 #rejSection3{
     display: flex;
     flex-direction: column;
-    min-height: 530px;
+    max-height: 530px;
+    background-image: url(image/section4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #rejSection3 p{
     background-color: rgba(0, 0, 0, 36%);
@@ -470,6 +493,7 @@ footer div p{
 #rejSection3 div{
     display: flex;
     justify-content: center;
+    margin: 1vw;
 }
 #rejSection3 div img{
     height: auto;
