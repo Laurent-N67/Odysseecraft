@@ -51,7 +51,7 @@ header nav a{
     color: #E6E6E6;
     padding-right: 4rem;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 3.8vh;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -72,7 +72,7 @@ header nav a{
 .welcome{
  text-align: center;
  color: #E6E6E6;
- font-size: 49px;
+ font-size: 5vh;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -81,10 +81,9 @@ header nav a{
     justify-content: center;
     align-items: center;
     min-height: 592px;
-    margin: 0 7rem;
 }
 #section2 p{
-    font-size: 42px;
+    font-size: 5vh;
     font-weight: 700;
     text-align: center;
     color: #464646;
@@ -99,7 +98,7 @@ header nav a{
     justify-content: center;
     align-items: center;
     color: #E6E6E6;
-    margin: 0 7rem;
+    margin: 0 7vw;
     min-height: 345px;
 }
 #section3 h2{
@@ -160,7 +159,7 @@ fieldset{
     border: none;
     height: 488px;
     width: 395px;
-    margin: 0 10rem; 
+    margin: 0 5vh; 
 }
 .fieldset1{
     background-image: url(image/book2.png);
@@ -238,24 +237,27 @@ textarea{
 .maj{
     background-color: rgba(0, 0, 0, 36%);
     color: #E6E6E6;
-    padding: 2rem;
-    margin-right: 10rem;
+    padding: 3vh;
+    margin-right: 10%;
     border-radius: 15px;
+    height: 80%;
+    overflow: hidden;
+    min-width: 30%;
 }
 .maj h2{
-    font-size: 28px;
+    font-size: 3.8vh;
     margin-bottom: 2rem;
     font-weight: 500;
 }
 .maj h3{
-    font-size: 28px;
+    font-size: 3.8vh;
     margin-bottom: 2rem;
     font-weight: 500;
 }
 .maj p{
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 26px;
+    font-size: 3.5vh;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
