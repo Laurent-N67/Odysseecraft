@@ -1,0 +1,74 @@
+.modal{
+    display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+.modal-content {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(15, 209, 144, 0.884),
+    rgba(0, 47, 255, 0.819)
+  ), url(img/code.jpg);
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(0, 119, 255);
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #000000;
+    float:right;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#myBtn{
+  height: 2rem;
+  background-color: grey;
+  border-color: rgb(232,78,54);
+  border-style:solid;
+  color: white;
+}
+.titremdl{
+  padding-top: 1rem;
+}
+.textmdl{
+  padding: 2rem;
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+
+  .modal-content{
+    width: 60%;
+  }
+}
+@media (min-width: 426px) and (max-width: 625px){
+  .modal-content{
+    width: 90%;
+  }
+}
+@media (min-width:376px) and (max-width: 426px){
+  .modal-content{
+    width: 90%;
+  }
+}

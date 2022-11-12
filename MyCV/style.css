@@ -1,0 +1,579 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Quicksand' , 'sans-serif';
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url("font/Quicksand-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url("font/Quicksand-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url("font/Quicksand-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navbar ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.icon{
+    display: none;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 1rem;
+    background-color: ghostwhite;
+}
+
+#myLinks a{
+    color: gray;
+    text-decoration: solid;
+    transition: color 1s ease;
+    padding-right: 2rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+#myLinks  a:hover{
+    color:rgba(0, 0, 0, 0.87);
+    text-decoration:underline;
+}
+
+.nom{
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 1rem;
+    color: gray;
+    text-decoration: solid;
+    transition: color 1s ease;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section1 main~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 255, 170, 0.747),
+        rgba(0, 47, 255, 0.719)
+      ), url(img/code.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.coordimg{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: ghostwhite;
+    border-radius: 60px;
+}
+
+.job{
+    display: flex;
+    flex-direction: column-reverse;
+    color: rgba(0, 0, 0, 0.726);
+    padding: 2rem;
+}
+.job h1{
+    font-size: 40px;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+}
+.job h2{
+    font-size: xx-large;
+    margin-bottom: 0.5rem;
+}
+
+.coordimg img{
+    max-width: 20rem;
+    border-radius: 100%;
+    background: linear-gradient(0deg, rgba(0, 255, 170, 0.747) 0%, rgba(0, 47, 255, 0.719) 100%);
+}
+.coord{
+    margin-left: 7rem;
+    font-size: x-large;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(87, 86, 86);
+}
+.coord div:not(:last-child){
+    margin-bottom: 1rem;
+}
+.coord p{
+    font-weight: 700;
+}
+.coord a{
+    text-decoration: underline;
+    color: rgb(87, 86, 86);
+    transition: color 1s ease;
+}
+.coord a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.reso{
+    border-radius: 60px;
+}
+.reso i{
+    color: ghostwhite;
+    padding: 2rem;
+    font-size: 60px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 255, 170, 0.2),
+        rgba(0, 47, 255, 0.2)
+      )
+}
+.section2 h2{
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+}
+#form{
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+#exp{
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.divrow{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+}
+.divcollumn{
+    width: 40rem;
+    padding: 2rem;
+    font-size: x-large;
+}
+.divcollumn p{
+    font-weight: 500;
+}
+.padbot{
+    margin-bottom: 0.5rem;
+}
+hr{
+    color: black;
+    width: 45%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section3~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#compt{
+    background-color: darkblue;
+    color: ghostwhite;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 1.3rem;
+    padding-top: 1rem;
+    margin: 2px 0;
+}
+.listcompt{
+    background-image: url(img/binary-code-background_88211-416.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ghostwhite;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem 0;
+    min-height: 300px;
+}
+
+.listcompt button{
+    background-color: rgba(50, 50, 241, 0.651);
+    color: ghostwhite;
+    list-style: none;
+    font-size: x-large;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    height: 125px;
+}
+.listcompt button li:hover{
+    width: 20rem;
+    font-size: 120%;
+}
+.listcompt button li{
+    width: 16rem;
+    transition: 0.5s;
+}
+#compp{
+    background-color: darkblue;
+    color: ghostwhite;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 1.3rem;
+    padding-top: 1rem;
+    margin: 2px 0;
+
+}
+.listcompp{
+    background-image: url(img/binary-code-background_88211-416.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ghostwhite;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem 0;
+    min-height: 400px;
+}
+.listcompp button{
+    background-color: rgba(50, 50, 241, 0.651);
+    color: ghostwhite;
+    list-style: none;
+    font-size: x-large;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    height: 140px;
+}
+.listcompp button li:hover{
+    width: 20rem;
+    font-size: 120%;
+}
+.listcompp button li{
+    width: 16rem;
+    transition: 0.5s;
+}
+
+.slideshow-container{
+    display: none;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~Section 4~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.section4{
+    display: flex;
+    flex-direction: column;
+}
+#prop{
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 2.5rem;
+    text-transform: uppercase;
+}
+.proptxt{
+    text-align: center;
+    margin:auto;
+    padding-bottom: 3rem;
+    font-size: x-large ;
+    line-height: 1.8rem;
+    max-width: 45rem;
+    font-weight: 500;
+}
+.tkt{
+    text-align: right;
+    background-color: beige;
+    padding: 2rem;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~navbar~~~~~~~~~~~~~~~~~~~~~~ */
+
+    .topnav{
+    overflow: hidden;
+    background-color: ghostwhite;
+    position: relative;
+    display: block;
+    }
+
+    .navnom{
+        font-size: xx-large;
+    }
+    
+    .topnav #myLinks {
+    display: none;
+    }
+    
+    .topnav a {
+    color: grey;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-size: large;
+    }
+    
+    .topnav a.icon {
+    background: ghostwhite;
+    position: absolute;
+    font-size: large;
+    right: 5px;
+    top: 15px;
+    }
+    
+    .topnav a:hover {
+    background-color: ghostwhite;
+    justify-content: center;
+    }
+    #myLinks  a:hover{
+        color: grey;
+        text-decoration:none;
+    }
+
+    .active{
+        font-weight: 600;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~Section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .section1{
+        max-width: max-content;
+    }
+    .coordimg{
+        flex-direction: column;
+        border-radius: 0 30px;
+    }
+    .coordimg img{
+        max-width: 15rem;
+    }
+    .coord{
+        margin: 0;
+    }
+    .job{
+        padding: 1rem;
+    }
+    .job h1{
+        font-size: 35px;
+        padding-top: 0.5rem;
+        text-transform: uppercase;
+    }
+    .job h2{
+        display: none;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~A propos~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .proptxt{
+        padding: 0 1rem 3rem;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~Formation~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    #form{
+        padding-bottom: 0;
+    }
+    #exp{
+        padding-bottom: 0;
+    }
+    .divrow{
+        flex-direction: column;
+    }
+    .divcollumn{
+        width: 100%;
+        text-align: center
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Compétences~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    
+    .listcompt button li{
+        width: 12rem;
+        transition: 0.5s;
+    }
+    .listcompp button li{
+        width: 12rem;
+    }
+
+    .listcompp button li:hover{
+        width: 12rem;
+        font-size: 100%;
+    }
+    .listcompt button li:hover{
+        width: 12rem;
+        font-size: 100%;
+    }
+}
+@media (min-width: 426px) and (max-width: 625px){
+    .listcompp{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .listcompt{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 426px){
+    
+    .topnav{
+        overflow: hidden;
+        background-color: ghostwhite;
+        position: relative;
+        display: block;
+        }
+    
+        .navnom{
+            font-size: xx-large;
+        }
+        
+        .topnav #myLinks {
+        display: none;
+        }
+        
+        .topnav a {
+        color: grey;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font-size: large;
+        }
+        
+        .topnav a.icon {
+        background: ghostwhite;
+        position: absolute;
+        font-size: large;
+        right: 5px;
+        top: 15px;
+        }
+        
+        .topnav a:hover {
+        background-color: ghostwhite;
+        justify-content: center;
+        }
+        #myLinks  a:hover{
+            color: grey;
+            text-decoration:none;
+        }
+    
+        .active{
+            font-weight: 600;
+        }
+        
+    /* ~~~~~~~~~~~~~~~~~~~~~Section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .section1{
+        max-width: max-content;
+    }
+    .coordimg{
+        flex-direction: column;
+        border-radius: 0 30px;
+    }
+    .coordimg img{
+        max-width: 15rem;
+    }
+    .coord{
+        margin: 0;
+    }
+    .job{
+        padding: 1rem;
+    }
+    .job h1{
+        font-size: 35px;
+        padding-top: 0.5rem;
+        text-transform: uppercase;
+    }
+    .job h2{
+        display: none;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~A propos~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .proptxt{
+        padding: 0 1rem 3rem;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~Formation~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    #form{
+        padding-bottom: 0;
+    }
+    #exp{
+        padding-bottom: 0;
+    }
+    .divrow{
+        flex-direction: column;
+    }
+    .divcollumn{
+        width: 100%;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    .listcompt {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .listcompt button{
+        margin-bottom: 0;
+    }
+    .listcompt button li{
+        width: 16rem;
+    }
+    .listcompt button li:hover{
+        width: 16rem;
+        font-size: 100%;
+    }
+    .listcompp{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        min-height: fit-content;
+    }
+    .listcompp button{
+        margin-bottom: 0;
+    }
+    .listcompp button li{
+        width: 16rem;
+    }
+
+    .listcompp button li:hover{
+        width: 16rem;
+        font-size: 100%;
+    }
+    
+    /* ~~~~~~~~~~~~~~~~~~~~~~slider~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+    .slideshow-container{
+        display: block;
+    }
+    .desktopul{
+        display: none;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    
+
+}

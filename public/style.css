@@ -143,6 +143,9 @@ header nav a{
     padding: 1vw;
     border-radius: 15px;
 }
+.slideshow-container{
+    display: none;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #section4{
@@ -609,13 +612,186 @@ footer div p{
     /* ~~~~~~~~~~~~~~~header media~~~~~~~~~~~~~~~ */
     header{
         padding: 3vw;
+        flex-direction: column;
+        padding: 2vw;
     }
     .logo{
-        width: 50vw;
+        width: 30vw;
     }
     header nav a{
-        display: none;
+        padding: 0 3vw;
+        font-size: 3vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 1 media~~~~~~~~~~~~~~~ */
+    #section1{
+        padding-top: 7vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 3 media~~~~~~~~~~~~~~~ */
+    .player section{
+        overflow: hidden;
     }
     /* ~~~~~~~~~~~~~~~section 4 media~~~~~~~~~~~~~~~ */
+    #section4{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .fieldset1{
+        width: 40vw;
+        height: 50vw;
+    }
+    .fieldset1 h2{
+        font-size: 3vw;
+    }
+    .fieldset2{
+        width: 40vw;
+        height: 50vw;
+    }
+    label{
+        font-size: 2.5vw;
+    }
+    input{
+        height: 4vw;
+        width: 20vw;
+    }
+    .formP{
+        font-size: 2.5vw;
+    }
+    .radioflex{
+        width: 28vw;
+    }
+    .radioflex input{
+        width: 3vw;
+    }
+    textarea{
+        height: 25vw;
+        width: 23vw;
+        font-size: 2vw;
+    }
+    .fieldset2 div button{
+        font-size: 2.5vw;
+        height: auto;
+        padding: 1vw;
+    }
+    .maj{
+        margin: 2vw 4vw;
+        width: auto;
+        padding: 2vw;
+    }
+    .maj h2{
+        font-size: 2.8vw;
+    }
+    .maj h3{
+        font-size: 2.8vw;
+    }
+    .maj p{
+        font-size: 2.5vw;
+    }
+}
+@media screen and (max-width:605px){
 
+    /* ~~~~~~~~~~~~~~~section 1 media~~~~~~~~~~~~~~~ */
+    #section1{
+        padding-top: 10vw;
+    }
+
+    /* ~~~~~~~~~~~~~~~section 3 media~~~~~~~~~~~~~~~ */
+    .admin{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player section{
+        font-size: 2vw;
+    }
+    .commu{
+        display: flex;
+    }
+    .commu img{
+        width: 20vw;
+    }
+    .commu p{
+        font-size: 2vw;
+    }
+    .maj h2{
+        font-size: 3.2vw;
+    }
+    .maj h3{
+        font-size: 3.2vw;
+    }
+    .maj p{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width:425px){
+    /* ~~~~~~~~~~~~~~~~~~~~~~navbar~~~~~~~~~~~~~~~~~~~~~~~~ */
+    /* ~~~~~~~~~~~~~~~~~~~~~~section 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .desktopadmin{
+        display: none;
+    }
+    #section3{
+        max-height: none;
+    }
+    #section3 h2{
+        font-size: 3.5vw;
+    }
+    .slideAdmin{
+        display: flex;
+        margin: 2vw 5vw;
+    }
+    .player img{
+        max-height: 25vw;
+        height: auto;
+    }
+    .slideAdmin section{
+        width: 40vw;
+        height: auto;
+        font-size: 3vw;
+        overflow: visible;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~slider~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .slideshow-container{
+        display: block;
+    }
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 3vw;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(0,0,0,0.6);
+        margin-top: 4vw;
+        border-radius: 15px;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+        right: 8vw;
+        
+    }
+    .prev {
+        left: 10vw; 
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~section 4~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    #section4{
+        max-height: none;
+    }
+    form{
+        flex-direction: column;
+    }
+    .fieldset1{
+        width: 50vw;
+        height: 60vw;
+        margin: 0;
+    }
+    .fieldset2{
+        width: 50vw;
+        height: 60vw;
+        margin: 0;
+    }
 }
