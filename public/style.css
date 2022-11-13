@@ -45,7 +45,9 @@ header nav a{
     text-decoration: none;
     font-size: 2vw;
 }
-
+.icon{
+    display: none;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #section1{
@@ -302,7 +304,6 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~section 1 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #objSection1{
-    max-height: 593px;
     background-image: url(image/section2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -312,18 +313,18 @@ footer div p{
     text-align: center;
     justify-content: center;
     font-weight: 500;
-    padding: 8vw;
+    padding: 7vw;
 }
 #objSection1 div{
     background-color:rgba(187, 187, 187, 62%);
-    padding: 2rem;
+    padding: 3vw;
     border-radius: 15px;
     color: #464646;
-    font-size: 36px;
-    margin: 0 7rem;
+    font-size: 2vw;
+    margin: 0 7vw;
 }
 #objSection1 div h1{
-    font-size: 42px;
+    font-size: 2.5vw;
     font-weight: 700;
     margin-bottom:2rem;
     font-family: 'VCR OSD Mono';
@@ -332,7 +333,6 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~section 2 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #objSection2{
-    max-height: 345px;
     background-image: url(image/section3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -344,15 +344,15 @@ footer div p{
 }
 #objSection2 div{
     background-color: rgba(0, 0, 0, 60%);
-    padding: 2rem;
+    padding: 3vw;
     border-radius: 15px;
     color: #E6E6E6;
-    font-size: 36px;
-    margin: 0 7rem;
+    font-size: 2vw;
+    margin: 0 7vw;
     font-weight: 500;
 }
 #objSection2 div h2{
-    font-size: 42px;
+    font-size: 2.5vw;
     font-weight: 500;
     margin-bottom:2rem;
     font-family: 'VCR OSD Mono';
@@ -360,7 +360,6 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~section 3 objectif~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #objSection3{
-    max-height: 530px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -368,21 +367,21 @@ footer div p{
     background-image: url(image/section4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 2vw;
+    padding: 1vw 7vw;
 }
 #objSection3 div{
     background-color: rgba(0, 0, 0, 36%);
-    padding: 2rem;
+    padding: 3vw;
     border-radius: 15px;
     color: #E6E6E6;
-    font-size: 36px;
-    margin: 0 7rem;
+    font-size: 2vw;
+    margin: 0 7vw;
     font-weight: 500;
 }
 #objSection3 div h2{
-    font-size: 42px;
+    font-size: 2.5vw;
     font-weight: 500;
-    margin-bottom:2rem;
+    margin-bottom:3vw;
     font-family: 'VCR OSD Mono';
 }
 
@@ -390,8 +389,6 @@ footer div p{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~rejoindre section 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #rejSection1{
-    max-height: 593px;
-    width: auto;
     background-image: url(image/section2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -403,12 +400,13 @@ footer div p{
     font-weight: 500;
     color: #464646;
     padding: 7vw;
+    padding-top: 8vw;
 }
 #rejSection1 h1{
     font-family: 'VCR OSD Mono';
     background-color:rgba(187, 187, 187, 62%);
-    padding: 2vw;
-    font-size: 1.8vw;
+    padding: 3vw;
+    font-size: 2vw;
     border-radius: 15px;
 }
 #rejSection1 div{
@@ -423,12 +421,11 @@ footer div p{
     margin: 1vw;
     padding: 1.5vw;
     text-align: center;
-    line-height: 1.7vw;
     max-height: auto;
 }
 #rejSection1 div p a{
     text-decoration: none;
-    color: #464646;
+    color: #00DCFF;
 }
 #rejSection1 div p a:hover{
     text-decoration: underline;
@@ -438,21 +435,18 @@ footer div p{
     height: auto;
     max-width: 50%;
     border-radius: 15px;
-    margin: 0 2rem;
+    margin: 0 2vw;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~rejoindre section 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #rejSection2{
-    max-height: 345px;
-    display: flex;
     background-image: url(image/section3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 1vw 7vw ;
 }
 #rejSection2 div{
     display: flex;
-    height: 345px;
-    flex-direction: row;
     margin-top: 0;
     align-items: center;
     justify-content: center;
@@ -462,11 +456,11 @@ footer div p{
     background-color: rgba(0, 0, 0, 36%);
     color: #E6E6E6;
     border-radius: 15px;
-    font-size: 200%;
-    margin: 0 2rem;
-    padding: 2.6rem;
+    font-size: 2vw;
+    margin: 0 2vw;
+    padding: 1vw 7vw;
     text-align: center;
-    line-height: 3rem;
+
 }
 #rejSection2 div img{
     height: auto;
@@ -479,19 +473,21 @@ footer div p{
 #rejSection3{
     display: flex;
     flex-direction: column;
-    max-height: 530px;
+    text-align: center;
+    justify-content: center;
     background-image: url(image/section4.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 1vw 7vw;
 }
 #rejSection3 p{
     background-color: rgba(0, 0, 0, 36%);
     color: #E6E6E6;
     border-radius: 15px;
-    font-size: 170%;
+    font-size: 2vw;
     text-align: center;
-    margin: 2rem 10% 0;
-    padding: 1rem;
+    margin: 2vw 3vw 0;
+    padding: 2vw;
 }
 #rejSection3 div{
     display: flex;
@@ -500,18 +496,21 @@ footer div p{
 }
 #rejSection3 div img{
     height: auto;
-    max-width: 25%;
-    margin: 0 4rem;
+    max-width: 40%;
+    margin: 0 4vw;
 }
 
 .mentions{
     background-color: #464646;
     color: #E6E6E6;
-    padding: 5vw;
+    padding: 8vw 15vw;
     display: flex;
     flex-direction: column;
     text-align: center;
-    line-height: 2.7vw;
+    line-height: 2vw;
+}
+.mentions div{
+    margin: 3vw;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~mod laptop L~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -604,6 +603,13 @@ footer div p{
     textarea{
         font-size: 1.4vw;
     }
+    /* ~~~~~~~~~~~~~~~~~~~~~mentions~~~~~~~~~~~~~~~~~~~~~ */
+    .mentions{
+        line-height: normal;
+    }
+    .mentions div{
+        margin: 4vw;
+    }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Mod tablet~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -687,13 +693,47 @@ footer div p{
     .maj p{
         font-size: 2.5vw;
     }
+    /* ~~~~~~~~~~~~~~~section 1 Objectif~~~~~~~~~~~~~~~ */
+    #objSection1{
+        padding-top: 15vw;
+    }
+    #objSection1 div{
+        font-size: 3vw;
+    }
+    #objSection1 div h1{
+        font-size: 3.5vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 2 Objectif~~~~~~~~~~~~~~~ */
+    #objSection2 div{
+        font-size: 3vw;
+    }
+    #objSection2 div h2{
+        font-size: 3.5vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 3 Objectif~~~~~~~~~~~~~~~ */
+    #objSection3 div{
+        font-size: 3vw;
+    }
+    #objSection3 div h2{
+        font-size: 3.5vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 1 Rejoindre~~~~~~~~~~~~~~~ */
+    #rejSection1{
+        padding-top: 15vw;
+    }
+    #rejSection1 div p{
+        font-size: 2vw;
+    }
+    #rejSection1 h1{
+        font-size: 3vw;
+    }
+    /* ~~~~~~~~~~~~~~~~mentions~~~~~~~~~~~~~~~~~~ */
+    .mentions{
+        padding-top: 10vw;
+    }
 }
 @media screen and (max-width:605px){
 
-    /* ~~~~~~~~~~~~~~~section 1 media~~~~~~~~~~~~~~~ */
-    #section1{
-        padding-top: 10vw;
-    }
 
     /* ~~~~~~~~~~~~~~~section 3 media~~~~~~~~~~~~~~~ */
     .admin{
@@ -721,9 +761,111 @@ footer div p{
     .maj p{
         font-size: 3vw;
     }
+    /* ~~~~~~~~~~~~~~~section 1 Objectif~~~~~~~~~~~~~~~ */
+    #objSection1{
+        padding-top: 20vw;
+    }
+    #objSection1 div{
+        font-size: 4vw;
+    }
+    #objSection1 div h1{
+        font-size: 4.5vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 2 Objectif~~~~~~~~~~~~~~~ */
+    #objSection2 div{
+        font-size: 4vw;
+    }
+    #objSection2 div h2{
+        font-size: 4.5vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 3 Objectif~~~~~~~~~~~~~~~ */
+    #objSection3 div{
+        font-size: 4vw;
+    }
+    #objSection3 div h2{
+        font-size: 4.5vw;
+    }
+    /* ~~~~~~~~~~~~~~~section 1 rejoindre~~~~~~~~~~~~~~~ */
+    #rejSection1 div{
+        flex-direction: column;
+    }
+    #rejSection1 h1{
+        font-size: 3.5vw;
+    }
+    #rejSection1 div p{
+        font-size: 3vw;
+        margin: 3vw 1vw;
+    }
+    #rejSection1 div img{
+        max-width: 80%;
+    }
+    /* ~~~~~~~~~~~~~~~section 2 rejoindre~~~~~~~~~~~~~~~ */
+    #rejSection2 div{
+        flex-direction: column-reverse;
+    }
+    #rejSection2 div p{
+        font-size: 3vw;
+        margin: 2vw;
+    }
+    #rejSection2 div img{
+        max-width: 50%;
+    }
+    /* ~~~~~~~~~~~~~~~section 3 rejoindre~~~~~~~~~~~~~~~ */
+    #rejSection3 p{
+        font-size: 3vw;
+    }
+    #rejSection3 div{
+        flex-direction: column;
+        align-items: center;
+    }
+    #rejSection3 div img{
+        max-width: 60%;
+        margin: 3vw;
+    }
 }
 @media screen and (max-width:425px){
     /* ~~~~~~~~~~~~~~~~~~~~~~navbar~~~~~~~~~~~~~~~~~~~~~~~~ */
+    #navLinks {
+        display: none;
+    }  
+    #navLinks a{
+        font-size: 4vw;
+    }
+    .logo{
+        width: 60vw;
+    }
+    header a.icon {
+    color:#E6E6E6;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-size: large;
+    position: absolute;
+    font-size: large;
+    right: 4vw;
+    top: 15px;
+    }
+    
+    header a:hover {
+    justify-content: center;
+    }
+
+    #navLinks  a:hover{
+        color: grey;
+        text-decoration:none;
+    }
+
+    .active{
+        font-weight: 600;
+    }
+    .welcome{
+        font-size: 4vw;
+        padding-top: 6vw;
+    }
+    #section2 p{
+        font-size: 4vw;
+    }
     /* ~~~~~~~~~~~~~~~~~~~~~~section 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     .desktopadmin{
         display: none;
@@ -747,6 +889,12 @@ footer div p{
         height: auto;
         font-size: 3vw;
         overflow: visible;
+    }
+    .commu{
+        flex-direction: column;
+    }
+    .commu p{
+        font-size: 3vw;
     }
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~slider~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     .slideshow-container{
@@ -793,5 +941,26 @@ footer div p{
         width: 50vw;
         height: 60vw;
         margin: 0;
+    }
+    input{
+        width: 30vw;
+        height: 5vw;
+        font-size: 4vw;
+    }
+    label{
+        font-size: 3vw;
+    }
+    textarea{
+        width: 26vw;
+        height: 28vw;
+        font-size: 3vw
+    }
+    .fieldset2 div button{
+        font-size: 3vw;
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    footer div{
+        flex-direction: column;
+        font-size: 2.5vw;
     }
 }
