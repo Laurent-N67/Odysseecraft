@@ -143,30 +143,27 @@
       )
 }
 .section2 h2{
-    padding-top: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 1vw;
 }
 #form{
-    font-size: xx-large;
-    width: 100%;
+    font-size: 2vw;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1vw;
     text-transform: uppercase;
 }
 #exp{
-    font-size: xx-large;
-    width: 100%;
+    font-size: 2vw;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1vw;
     text-transform: uppercase;
 }
 .divrow{
     display: flex;
     flex-direction: row;
-    padding: 1.5rem;
+    padding: 1vw;
 }
 .divcollumn{
-    width: 40rem;
+    width: 35vw;
     padding: 2rem;
     font-size: x-large;
 }
@@ -299,7 +296,7 @@ hr{
 }
 
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 800px) {
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~navbar~~~~~~~~~~~~~~~~~~~~~~ */
 

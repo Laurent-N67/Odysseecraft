@@ -9,8 +9,8 @@
 }
 .scroll {
 	position:absolute;
-	right:20px;
-	bottom:20px;
+	right:3vw;
+	bottom:3vw;
 	background:rgba(255, 0, 55, 0.6);
 	padding:20px;
 	text-align: center;
@@ -32,10 +32,4 @@
 .fa-solid{
     height: 15px;
     width: 15px;
-}
-@media (min-width:376px) and (max-width: 426px){
-	.scroll{
-		right: 10px;
-		bottom: 10px;
-	}
 }
